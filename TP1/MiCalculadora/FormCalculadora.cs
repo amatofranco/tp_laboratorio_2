@@ -105,26 +105,6 @@ namespace MiCalculadora
             return resultado;
         }
 
-        private void txtNumero2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblResultado_Click(object sender, EventArgs e)
-        {
-
-        }
 
     }
 }

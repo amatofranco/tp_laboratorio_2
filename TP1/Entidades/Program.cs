@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Numero num = new Numero("-6");
-            Numero num2 = new Numero("5");
-            string binario = num.BinarioDecimal("10101000");
-            Console.WriteLine(binario);
-            Console.ReadKey();
+
         }
     }
 }

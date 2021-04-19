@@ -49,7 +49,6 @@ namespace MiCalculadora
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(169, 69);
             this.txtNumero1.TabIndex = 0;
-            this.txtNumero1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtNumero2
             // 
@@ -59,7 +58,6 @@ namespace MiCalculadora
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(169, 69);
             this.txtNumero2.TabIndex = 2;
-            this.txtNumero2.TextChanged += new System.EventHandler(this.txtNumero2_TextChanged);
             // 
             // btnOperar
             // 
@@ -135,7 +133,6 @@ namespace MiCalculadora
             this.cmbOperador.Size = new System.Drawing.Size(169, 69);
             this.cmbOperador.Sorted = true;
             this.cmbOperador.TabIndex = 1;
-            this.cmbOperador.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // lblResultado
             // 
@@ -147,7 +144,6 @@ namespace MiCalculadora
             this.lblResultado.Size = new System.Drawing.Size(0, 46);
             this.lblResultado.TabIndex = 8;
             this.lblResultado.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
             // FormCalculadora
             // 
