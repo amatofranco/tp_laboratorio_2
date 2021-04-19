@@ -105,6 +105,13 @@ namespace MiCalculadora
             return resultado;
         }
 
+        private void FormCalculadora_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("¿Esta seguro de querer salir?","Cerrando", MessageBoxButtons.YesNo) == DialogResult.No){
 
+                e.Cancel = true;
+
+            }
+        }
     }
 }
